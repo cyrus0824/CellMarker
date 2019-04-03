@@ -26,7 +26,7 @@ def parse_field(field_string):
 
 def generate_id(doc):
     _id = uuid.uuid1()
-    _id = _id.replace('-', '')
+    _id = str(_id).replace('-', '')
     return _id
 
 def load_data(data_folder):
