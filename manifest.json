@@ -1,0 +1,12 @@
+{
+    "version": "0.1",
+    "__metadata__" : {
+        "url" : "http://biocc.hrbmu.edu.cn/CellMarker/index.jsp"
+    },
+    "dumper" : {
+        "data_url" : "http://biocc.hrbmu.edu.cn/CellMarker/download/all_cell_markers.txt"
+    },
+    "uploader" : {
+        "parser" : "parser:load_data"
+    }
+}
