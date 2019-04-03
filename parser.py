@@ -1,5 +1,6 @@
 import os
 import uuid
+import copy
 
 from biothings.utils.dataload import open_anyfile, dict_sweep
 from csv import DictReader
